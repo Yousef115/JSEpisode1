@@ -83,7 +83,6 @@ function ageFromBirthDate(birthDate) {
   const _MS_PER_YEAR = 1000 * 60 * 60 * 24 * 365;
   var year = +(birthDate.slice(0,4))
   var month = +(birthDate.slice(4,6))
-  var day = +(birthDate.slice(6))
   var date = new Date();
 
   if (date.getMonth() > month){
